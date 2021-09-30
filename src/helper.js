@@ -1,4 +1,4 @@
-class Hepler{
+class Helper{
 
     static choice(items) {
         let fruit = items[Math.floor(Math.random()*Object.keys(items).length)];
@@ -16,4 +16,4 @@ class Hepler{
     
 }
 
-export default Hepler
+export default Helper
