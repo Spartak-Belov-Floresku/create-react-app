@@ -1,6 +1,6 @@
 class Hepler{
 
-    static choce(items) {
+    static choice(items) {
         let fruit = items[Math.floor(Math.random()*Object.keys(items).length)];
         return fruit;
     }
